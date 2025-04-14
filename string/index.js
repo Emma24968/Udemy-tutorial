@@ -1,12 +1,7 @@
-const address={ 
-    street:  '23 brooklyn redder',
-    city: 'Newyork',
-    zipCode: '12345',
-
-};
-
-function showAddress(address) {
-    for (let key in address)
-        console.log(key, address[key])
-}
-    showAddress(address)
+const first = [1,2,3,4]
+const second = [5,6,7,8]
+const last = [...first,...second]
+const total = last
+// last.unshift()
+console.log(last)
+console.log(total)

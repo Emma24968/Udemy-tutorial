@@ -1,17 +1,17 @@
-// let a = 'red';
-// let b = 'blue';
+let a = 'red';
+let b = 'blue';
 
-// let c = b;
-// b =  a;
-// a = c;
+let c = b;
+b =  a;
+a = c;
 
 
-// console.log(a);
-// console.log(b);
+console.log(a);
+console.log(b);
 
-function getRandom(min, max) {
-    return Math.random() * (max -min) + 2;
+// function getRandom(min, max) {
+//     return Math.random() * (max -min) + 2;
     
-}
+// }
  
-Math.random(12- 12) + 4
+// Math.random(12- 12) + 4
